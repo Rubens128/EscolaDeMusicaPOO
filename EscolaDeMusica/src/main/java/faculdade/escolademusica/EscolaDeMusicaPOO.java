@@ -43,6 +43,7 @@ public class EscolaDeMusicaPOO{
         
         System.out.println(" ----- Mostrando informações dos Instrumentos ---- ");
         for(int i = 0; i < banda.length; i++){
+            System.out.println("Instrumeno musical " + (i+1) + " : ");
             banda[i].mostrarInformacoes();
             System.out.println();
         }
